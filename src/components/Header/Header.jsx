@@ -4,11 +4,9 @@ import style from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div>
-      <header>
-        <h1>Welcome to the party</h1>
-      </header>
-    </div>
+    <header className="header">
+      <h1>Welcome to the party</h1>
+    </header>
   );
 };
 
